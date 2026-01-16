@@ -22,4 +22,4 @@ services:
             - c:\docker\proyectoodoo\odoo-data:/var/lib/odoo
             - c:\docker\proyectoodoo\addons:/mnt/extra-addons
             - c:\docker\proyectoodoo\config:/etc/odoo
-        entrypoint: "/usr/bin/odoo -c /etc/odoo/odoo.conf -u practicasfct"
+        entrypoint: "/usr/bin/odoo -c /etc/odoo/odoo.conf -u incidentes"
